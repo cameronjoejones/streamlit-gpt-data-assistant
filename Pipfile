@@ -7,6 +7,9 @@ name = "pypi"
 streamlit = "*"
 pandas = "*"
 openai = "*"
+plotly = "*"
+numpy = "*"
+openpyxl = "*"
 
 [dev-packages]
 
