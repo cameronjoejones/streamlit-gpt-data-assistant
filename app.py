@@ -42,7 +42,7 @@ def run_app():
                 st.write(pd.read_csv(upload_file))
 
             elif example_data == False:
-                upload_file = st.file_uploader("Upload your data file", type=['csv', 'xls','xlsx' ])
+                upload_file = st.file_uploader("Upload your data file", type='csv')
 
             prompt_selected = st.selectbox('Select a prompt', list(question_bank.keys()))
             prompt = question_bank[prompt_selected]['question']
