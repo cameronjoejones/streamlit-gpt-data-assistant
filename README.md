@@ -5,7 +5,6 @@ ChatGPT Data Assistant is a Streamlit app that uses the OpenAI API to generate r
 To run this app locally, you need to have Python 3.6 or higher installed. Clone the repository and navigate to the project directory.
 
 ```bash
-Copy code
 git clone https://github.com/cameronjoej/streamlit-gpt-data-assistant.git
 cd streamlit-gpt-data-assistant
 ```
