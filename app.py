@@ -20,10 +20,6 @@ def sidebar():
         2. Select a prompt from the dropdown menu.
         3. Click the "Generate response" button.
         ''')
-    st.sidebar.title('Credits')
-    st.sidebar.info('''
-        This app was built by [Cameron Jones](https://www.cameronjones.co.uk/)
-        ''')
     st.text(" ")
     st.sidebar.markdown(
     """
