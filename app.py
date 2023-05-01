@@ -24,6 +24,19 @@ def sidebar():
     st.sidebar.info('''
         This app was built by [Cameron Jones](https://www.cameronjones.co.uk/)
         ''')
+    st.text(" ")
+    st.sidebar.markdown(
+    """
+    <a href="https://twitter.com/cameronjoejones" target="_blank" style="text-decoration: none;">
+        <div style="display: flex; align-items: center;">
+            <img src="https://abs.twimg.com/icons/apple-touch-icon-192x192.png" width="30" height="30">
+            <span style="font-size: 16px; margin-left: 5px;">Follow me on Twitter</span>
+        </div>
+    </a>
+    """, unsafe_allow_html=True
+    )
+    
+    
     st.sidebar.write('Updated: 2023/04/09')
 
 
