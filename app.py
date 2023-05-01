@@ -3,10 +3,10 @@ import pandas as pd
 from api import OpenAI_API, open_ai_response
 from question_bank import question_bank
 
-
-st.set_page_config(page_title="ChatGPT Data Assistant", page_icon="📊", layout="centered")
-hide_menu_style = "<style> footer {visibility: hidden;} </style>"
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+def page_config():
+    st.set_page_config(page_title="ChatGPT Data Assistant", page_icon="📊", layout="centered")
+    hide_menu_style = "<style> footer {visibility: hidden;} </style>"
+    st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 def sidebar():
@@ -32,8 +32,6 @@ def sidebar():
     """, unsafe_allow_html=True
     )
     
-    
-    st.sidebar.write('Updated: 2023/04/09')
 
 
 def run_app():
@@ -84,5 +82,6 @@ def run_app():
     
 
 if __name__ == '__main__':
+    page_config()
     run_app()
     sidebar()
